@@ -1,4 +1,4 @@
 
-export function makeAlert(text) {
-    alert(text)
-}
+// export function makeAlert(text) {
+//     alert(text)
+// }
