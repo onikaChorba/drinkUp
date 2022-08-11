@@ -7,7 +7,7 @@ module.exports = {
     mode: 'development',
     devServer: {
         historyApiFallback: true,
-        static: path.resolve(__dirname, './dist'),
+        static: path.resolve(__dirname, './src/'),
         open: true,
         compress: true,
         hot: true,
@@ -23,7 +23,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'webpack Boilerplate',
-            template: path.resolve(__dirname, './src/index.html'), // шаблон
+            template: path.resolve(__dirname, './src/template.html'), // шаблон
             filename: 'index.html', // название выходного файла
         }),
         new CleanWebpackPlugin(),

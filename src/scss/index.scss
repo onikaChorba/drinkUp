@@ -1,1 +1,9 @@
-@import './Front-page/index.scss'
+/* GLOBAL STYLES */
+@import './globals/globals.scss';
+
+/* GLOBAL MODULES */
+@import './modules/header.scss';
+@import './modules/footer.scss';
+
+/* FRONT PAGE */
+@import './pages/Front-page/index.scss';
