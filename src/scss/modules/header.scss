@@ -1,7 +1,11 @@
+.container-header {
+    max-width: 1522px;
+}
+
 .nav-bars {
     display: flex;
-    justify-content: space-between;
     padding: 107px 157px 102px 122px;
+    align-items: center;
 
     .logo {
         img {
@@ -11,14 +15,23 @@
     }
 
     .nav-bar {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 3px;
+        padding-left: 440px;
 
-        a {
-            margin: 45px;
-            font-size: 20px;
-            line-height: 24px;
+        .nav-list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 612px;
+            height: 28px;
+
+            a {
+                display: inline-block;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+            }
         }
+
+
     }
 }
