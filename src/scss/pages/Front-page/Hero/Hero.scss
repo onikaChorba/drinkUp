@@ -1,118 +1,128 @@
 .hero-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1522px;
-    top: 240px;
-    background: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1522px;
+  background: none;
+  padding-top: 96px;
+  // padding-bottom: 248px;
 
-    .hero-image {
-        padding-left: 260px;
-        width: 247px;
-        height: 459px;
-        border-radius: 18px;
-
-        img {
-            width: 225px;
-            height: 434px;
-            border-radius: 7px;
-            margin: 12px 11px 13px 11px;
-            border: 8px solid #fff;
-            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
-        }
+  .hero-text {
+    h1 {
+      width: 525px;
+      height: 139px;
+      font-size: 48px;
+      line-height: 76.8px;
+      font-weight: 500;
+      padding-right: 244px;
     }
 
-    .hero-text {
-        h1 {
-            width: 525px;
-            height: 139px;
-            font-size: 48px;
-            line-height: 76.8px;
-            font-weight: 500;
-            padding-right: 244px;
-        }
-
-        span {
-            font-weight: 700;
-            font-size: 64px;
-            line-height: 77px;
-            vertical-align: top;
-        }
-
-        p {
-            width: 440px;
-            height: 88px;
-            padding-top: 17px;
-            padding-bottom: 17px;
-            font-weight: 300;
-            font-style: normal;
-            font-size: 18px;
-            line-height: 22px;
-        }
-
-        .btn {
-            width: 212px;
-            height: 57px;
-            border-radius: 10px;
-            border: 1px solid #fff;
-            position: relative;
-
-            a {
-                width: 150px;
-                height: 26px;
-                font-weight: 400;
-                font-size: 22px;
-                line-height: 26.4px;
-                position: absolute;
-                margin: 15px 30px 16px 31px;
-            }
-        }
+    span {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 77px;
+      vertical-align: top;
     }
+
+    p {
+      width: 440px;
+      height: 88px;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .btn {
+      width: 212px;
+      height: 57px;
+      border-radius: 10px;
+      border: 1px solid #fff;
+      position: relative;
+
+      a {
+        width: 150px;
+        height: 26px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26.4px;
+        position: absolute;
+        margin: 15px 30px 16px 31px;
+      }
+    }
+
+
+  }
+
+
 }
+
+.hero-image {
+  padding-left: 260px;
+  width: 247px;
+  height: 459px;
+  border-radius: 18px;
+
+  img {
+    width: 225px;
+    height: 434px;
+    border-radius: 7px;
+    margin: 12px 11px 13px 11px;
+    border: 8px solid #fff;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  .elipse {
+    border: 9px solid rgba(255, 255, 255, 0.54);
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .ellips1 {
+    width: 120px;
+    height: 120px;
+    top: 218px;
+    left: 340px;
+
+  }
+}
+
 
 .hero-icons {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 515px 16px 529px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 515px 16px 529px;
 
-    .icon {
-        width: 194px;
-        height: 199px;
-        border: 5px solid #fff;
-        border-radius: 52px;
-        background: #5B3DDF;
-        box-shadow: 0px 10px 10px 0px #00000040;
-        position: relative;
+  .icon {
+    width: 194px;
+    height: 199px;
+    border: 5px solid #fff;
+    border-radius: 52px;
+    background: #5B3DDF;
+    box-shadow: 0px 10px 10px 0px #00000040;
+    position: relative;
 
-        img {
-            width: 95px;
-            filter: brightness(0) invert(1);
-            margin: 11px 49px;
-        }
-
-        p {
-            width: 134px;
-            height: 37px;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 22px;
-            text-align: center;
-            vertical-align: top;
-            position: absolute;
-            margin: 0px 33px 50px 30px;
-        }
+    img {
+      width: 95px;
+      filter: brightness(0) invert(1);
+      margin: 11px 49px;
     }
 
-    .icon:hover {
-        background: #D85259;
+    p {
+      width: 134px;
+      height: 37px;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 22px;
+      text-align: center;
+      vertical-align: top;
+      position: absolute;
+      margin: 0px 33px 50px 30px;
     }
+  }
+
+  .icon:hover {
+    background: #D85259;
+  }
 }
-
-// .hero:after {
-//     content: "";
-//     background: url('/src/assets/images/ellips/6.png');
-//     width: 48px;
-//     height: 48px;
-//     border: 9px solid rgba(255, 255, 255, 0.54);
-//     position: absolute;
-//     color: #fff;
-// }
