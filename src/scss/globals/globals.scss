@@ -11,8 +11,8 @@ body {
     outline: none;
     border: none;
     text-decoration: none;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #5030DD;
-    background-blend-mode: hard-light, normal;
+    background: url('/src/assets/images/Vector1.png') no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100%;
     box-sizing: inherit;
