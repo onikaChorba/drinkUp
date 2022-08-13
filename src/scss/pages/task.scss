@@ -1,0 +1,73 @@
+.task {
+  color: #000000;
+
+  .container-task {
+    padding-left: 257px;
+    padding-right: 257px;
+
+    h2 {
+      padding-top: 59px;
+      width: 86px;
+      height: 43px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 43px;
+      color: #0B036B;
+      padding-left: 435px;
+    }
+
+    p {
+      height: 47px;
+      width: 668px;
+      // padding-left: 128px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+    }
+  }
+
+  .task-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+
+
+    .item {
+      width: 241px;
+      height: 338px;
+      margin: 0;
+
+      .item-img {
+        text-align: center;
+
+        img {
+          height: 210px;
+        }
+      }
+
+      .item-text {
+        width: 100%;
+
+        h4 {
+          width: 95px;
+          height: 29px;
+          font-weight: 700;
+          font-size: 24px;
+          color: #0B036B;
+          margin: 0 65px;
+          text-align: center;
+        }
+
+        p {
+          width: 241px;
+          height: 42px;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+}
