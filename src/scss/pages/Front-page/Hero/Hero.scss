@@ -72,7 +72,7 @@
     margin: 12px 11px 13px 11px;
     border: 8px solid #fff;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
-    z-index: 1000;
+    z-index: 2000;
   }
 
   .elipse {
@@ -80,7 +80,6 @@
     border-radius: 50%;
     position: absolute;
     box-sizing: border-box;
-    z-index: 1;
   }
 
   .ellips1 {
@@ -88,6 +87,7 @@
     height: 120px;
     top: 144px;
     left: 329px;
+    z-index: -10;
   }
 
   .ellips2 {
@@ -102,6 +102,7 @@
     height: 196px;
     top: 222px;
     left: 458px;
+    z-index: -10;
   }
 
   .ellips4 {
