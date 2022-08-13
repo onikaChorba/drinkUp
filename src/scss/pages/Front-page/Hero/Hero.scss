@@ -3,10 +3,10 @@
   justify-content: space-between;
   max-width: 1522px;
   background: none;
-  padding-top: 96px;
-  // padding-bottom: 248px;
+  padding-top: 52px;
 
   .hero-text {
+
     h1 {
       width: 525px;
       height: 139px;
@@ -59,7 +59,8 @@
 }
 
 .hero-image {
-  padding-left: 260px;
+  top: 240px;
+  padding-left: 238px;
   width: 247px;
   height: 459px;
   border-radius: 18px;
@@ -71,20 +72,85 @@
     margin: 12px 11px 13px 11px;
     border: 8px solid #fff;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
   }
 
   .elipse {
     border: 9px solid rgba(255, 255, 255, 0.54);
     border-radius: 50%;
     position: absolute;
+    box-sizing: border-box;
+    z-index: 1;
   }
 
   .ellips1 {
     width: 120px;
     height: 120px;
-    top: 218px;
-    left: 340px;
+    top: 144px;
+    left: 329px;
+  }
 
+  .ellips2 {
+    width: 42px;
+    height: 42px;
+    top: 152px;
+    left: 474px;
+  }
+
+  .ellips3 {
+    width: 196px;
+    height: 196px;
+    top: 222px;
+    left: 458px;
+  }
+
+  .ellips4 {
+    width: 76px;
+    height: 76px;
+    top: 256px;
+    left: 207px;
+  }
+
+  .ellips5 {
+    width: 30px;
+    height: 30px;
+    top: 466px;
+    left: 144px;
+  }
+
+  .ellips6 {
+    width: 48px;
+    height: 48px;
+    top: 508px;
+    left: 111px;
+  }
+
+  .ellips7 {
+    width: 78px;
+    height: 78px;
+    top: 638px;
+    left: 1355px;
+  }
+
+  .ellips8 {
+    width: 30px;
+    height: 30px;
+    top: 669px;
+    left: 1282px;
+  }
+
+  .ellips9 {
+    width: 48px;
+    height: 48px;
+    top: 734px;
+    left: 1242px;
+  }
+
+  .ellips10 {
+    width: 196px;
+    height: 196px;
+    top: 726px;
+    left: 1311px;
   }
 }
 
@@ -92,7 +158,7 @@
 .hero-icons {
   display: flex;
   justify-content: space-between;
-  padding: 0px 515px 16px 529px;
+  padding: 0px 515px 0px 529px;
 
   .icon {
     width: 194px;
