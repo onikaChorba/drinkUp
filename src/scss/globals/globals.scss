@@ -12,10 +12,8 @@ body {
   border: none;
   text-decoration: none;
   background: url('/src/assets/images/Vector1.png') no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
-  height: 100%;
-  // box-sizing: inherit;
   position: relative;
 }
 
