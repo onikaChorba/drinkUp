@@ -120,13 +120,13 @@ body {
 
 
 .servises-title {
-  padding-left: 844px;
+  padding: 220px 156px 97px 844px;
   text-align: left;
-  padding-top: 220px;
 
   .servises-item {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 41px;
 
     .title-icon {
       width: 80px;
@@ -142,16 +142,19 @@ body {
         width: 42px;
         height: 40px;
         color: #794BFF;
-        margin: 24px 15px 24px 15px;
+        margin: 24px 15px 24px 19px;
       }
     }
 
     .title-text {
+
+
       h4 {
         font-weight: 700;
         font-size: 24px;
         line-height: 29px;
         max-width: 143px;
+        margin: 0;
       }
 
       p {
