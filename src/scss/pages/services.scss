@@ -1,0 +1,166 @@
+.services {
+  background: #5030DD;
+  height: 673px;
+}
+
+body {
+  position: relative;
+}
+
+.servises-img {
+  box-sizing: border-box;
+
+  .img1 {
+    width: 366px;
+    height: 366px;
+    top: 1634px;
+    padding-left: 214px;
+    position: absolute;
+  }
+
+  .img2 {
+    width: 220px;
+    height: 220px;
+    top: 1817px;
+    padding-left: 45px;
+    position: absolute;
+  }
+
+  .img3 {
+    width: 220px;
+    height: 220px;
+    top: 1860px;
+    padding-left: 503px;
+    position: absolute;
+  }
+
+  .img4 {
+    width: 248px;
+    height: 248px;
+    top: 2017px;
+    padding-left: 76px;
+    position: absolute;
+  }
+
+  .img5 {
+    width: 298px;
+    height: 298px;
+    top: 2022px;
+    padding-left: 439px;
+    position: absolute;
+  }
+
+  .img6 {
+    width: 292px;
+    height: 292px;
+    top: 2090px;
+    padding-left: 251px;
+    position: absolute;
+  }
+
+  .img7 {
+    width: 156px;
+    height: 156px;
+    top: 2255px;
+    padding-left: 102px;
+    position: absolute;
+  }
+}
+
+
+.elipse {
+  border: 9px solid rgba(255, 255, 255, 0.54);
+  border-radius: 50%;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.ellips11 {
+  width: 102px;
+  height: 102px;
+  top: 1621px;
+  left: 49px;
+
+}
+
+.ellips12 {
+  width: 48px;
+  height: 48px;
+  top: 1723px;
+  left: 10px;
+}
+
+.ellips13 {
+  width: 78px;
+  height: 78px;
+  top: 2191px;
+  left: 1359px;
+}
+
+.ellips14 {
+  width: 30px;
+  height: 30px;
+  top: 2264px;
+  left: 1318px;
+}
+
+.ellips15 {
+  width: 48px;
+  height: 48px;
+  top: 2287px;
+  left: 1246px;
+}
+
+.ellips16 {
+  width: 196px;
+  height: 196px;
+  top: 2279px;
+  left: 1315px;
+}
+
+
+.servises-title {
+  padding-left: 844px;
+  text-align: left;
+  padding-top: 220px;
+
+  .servises-item {
+    display: flex;
+    justify-content: space-between;
+
+    .title-icon {
+      width: 80px;
+      height: 80px;
+      background: #FFFFFF;
+      border-radius: 50%;
+      box-sizing: border-box;
+      padding-right: 57px;
+      margin-right: 57px;
+      text-align: center;
+
+      img {
+        width: 42px;
+        height: 40px;
+        color: #794BFF;
+        margin: 24px 15px 24px 15px;
+      }
+    }
+
+    .title-text {
+      h4 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        max-width: 143px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        top: 10px
+      }
+    }
+
+  }
+}

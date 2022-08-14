@@ -1,5 +1,6 @@
 .task {
   color: #000000;
+  padding-bottom: 138px;
 
   .container-task {
     padding-left: 257px;
@@ -59,6 +60,7 @@
             color: #0B036B;
             margin: 0 65px;
             text-align: center;
+            top: 28px;
           }
 
           p {
@@ -68,6 +70,12 @@
             font-size: 18px;
             line-height: 21px;
             padding-left: 0px;
+            top: 4px;
+          }
+
+          .img {
+            text-align: center;
+            top: 18px;
           }
         }
       }
