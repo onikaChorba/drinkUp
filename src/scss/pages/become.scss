@@ -1,0 +1,75 @@
+.become {
+  color: #000000;
+}
+
+.container-become {
+  padding-left: 227px;
+  padding-right: 92px;
+}
+
+.become-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.become-title {
+  position: absolute;
+
+  h2 {
+    padding-top: 344px;
+    padding-bottom: 23px;
+    width: 445px;
+    height: 58px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0B036B;
+  }
+
+  p {
+    width: 613px;
+    height: 76px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 48px;
+  }
+
+  .btn {
+    width: 179px;
+    height: 57px;
+    border-radius: 10px;
+    border: 1px solid #794BFF;
+    position: relative;
+
+    a {
+      widows: 107px;
+      height: 26px;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 26px;
+      color: #794BFF;
+      padding: 16px 35px 15px 36px;
+      position: absolute;
+    }
+  }
+}
+
+.img-main {
+  margin-top: 84px;
+  width: 408px;
+  height: 612px;
+}
+
+.img-circle {
+  width: 356px;
+  height: 356px;
+  background: #5030DD;
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: absolute;
+  top: 2665px;
+  left: 951px;
+  z-index: -10;
+  margin-left: 100px;
+}
