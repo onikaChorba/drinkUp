@@ -1,11 +1,11 @@
-.hero-content {
+.hero__content {
   display: flex;
   justify-content: space-between;
   max-width: 1522px;
   background: none;
   padding-top: 52px;
 
-  .hero-text {
+  .hero__content-text {
 
     h1 {
       width: 525px;
@@ -58,7 +58,7 @@
 
 }
 
-.hero-image {
+.hero__content-image {
   top: 240px;
   padding-left: 238px;
   width: 247px;
@@ -110,6 +110,7 @@
     height: 76px;
     top: 256px;
     left: 207px;
+    z-index: -10;
   }
 
   .ellips5 {
@@ -156,12 +157,12 @@
 }
 
 
-.hero-icons {
+.hero__icons {
   display: flex;
   justify-content: space-between;
   padding: 0px 515px 0px 529px;
 
-  .icon {
+  .hero__icon {
     width: 194px;
     height: 199px;
     border: 5px solid #fff;
@@ -189,7 +190,7 @@
     }
   }
 
-  .icon:hover {
+  .hero__icon:hover {
     background: #D85259;
   }
 }

@@ -1,4 +1,4 @@
-.services {
+.servises {
   background: #5030DD;
   height: 673px;
 }
@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 
-.servises-img {
+.servises__img {
   box-sizing: border-box;
 
   .img1 {
@@ -80,7 +80,6 @@ body {
   height: 102px;
   top: 1621px;
   left: 49px;
-
 }
 
 .ellips12 {
@@ -119,16 +118,16 @@ body {
 }
 
 
-.servises-title {
+.servises__content {
   padding: 220px 156px 97px 844px;
   text-align: left;
 
-  .servises-item {
+  .servises__content-item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 41px;
 
-    .title-icon {
+    .servises__content-icon {
       width: 80px;
       height: 80px;
       background: #FFFFFF;
@@ -146,9 +145,7 @@ body {
       }
     }
 
-    .title-text {
-
-
+    .servises__content-text {
       h4 {
         font-weight: 700;
         font-size: 24px;
@@ -164,6 +161,5 @@ body {
         top: 10px
       }
     }
-
   }
 }
