@@ -1,5 +1,6 @@
 .become {
   color: #000000;
+  padding-bottom: 51px;
 }
 
 .container-become {
@@ -13,11 +14,10 @@
 }
 
 .become-title {
-  position: absolute;
+
+  padding-top: 344px;
 
   h2 {
-    padding-top: 344px;
-    padding-bottom: 23px;
     width: 445px;
     height: 58px;
     font-weight: 900;
@@ -32,7 +32,6 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    padding-bottom: 48px;
   }
 
   .btn {
@@ -59,6 +58,7 @@
   margin-top: 84px;
   width: 408px;
   height: 612px;
+  padding-right: 92px;
 }
 
 .img-circle {
@@ -71,5 +71,51 @@
   top: 2665px;
   left: 951px;
   z-index: -10;
-  margin-left: 100px;
+}
+
+body {
+  position: relative;
+}
+
+.elipseA {
+  border: 9px solid #AD90FF;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.ellips17 {
+  width: 60px;
+  height: 60px;
+  top: 2391px;
+  left: 1024px;
+}
+
+.ellips18 {
+  width: 146px;
+  height: 146px;
+  top: 2514px;
+  left: 920px;
+}
+
+.ellips19 {
+  width: 40px;
+  height: 40px;
+  top: 2447px;
+  left: 1215px;
+}
+
+.ellips20 {
+  width: 88px;
+  height: 88px;
+  top: 2508px;
+  left: 1271px;
+}
+
+.ellips21 {
+  width: 116px;
+  height: 116px;
+  top: 2598px;
+  left: 1130px;
+  z-index: -10;
 }
