@@ -1,7 +1,79 @@
-.footer {
+footer {
   background: url('/src/assets/images/Vector\ 2.png') no-repeat;
-  background-size: contain;
-  width: 100%;
-  max-width: 1522px;
-  position: relative;
+  background-size: cover;
+  width: 1522px;
+}
+
+.footer__conteiner {
+  padding-left: 390px;
+  padding-top: 153px;
+}
+
+.footer {
+  &__download {
+    width: 782px;
+    height: 512px;
+    border: 2px solid #794BFF;
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+  }
+
+  &__logo {
+    width: 245px;
+    height: 141px;
+    margin: 31px 269px 0 269px;
+  }
+
+  &__text {
+    width: 613px;
+    height: 63px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000;
+    margin-left: 76px;
+    margin-top: 18px;
+  }
+
+  &__heading {
+    width: 363px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-top: 39px;
+    margin-left: 209px;
+    vertical-align: top;
+
+    span {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #5A3BDF;
+      margin-top: 0px;
+      vertical-align: top;
+    }
+  }
+
+  &__button-google {
+    padding-top: 39px;
+    width: 180px;
+    height: 58px;
+    top: 4199px;
+    left: 606px;
+    position: absolute;
+  }
+
+  &__button-store {
+    padding-top: 39px;
+    width: 185px;
+    height: 58px;
+    top: 4199px;
+    left: 793px;
+    position: absolute;
+  }
 }
