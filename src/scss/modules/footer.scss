@@ -1,7 +1,6 @@
 footer {
   background: url('/src/assets/images/Vector\ 2.png') no-repeat;
   background-size: cover;
-  width: 1522px;
 }
 
 .footer__conteiner {
@@ -78,5 +77,31 @@ footer {
       top: 4199px;
       left: 747px;
     }
+  }
+}
+
+.footer__subscribe {
+  padding-left: 110px;
+  padding-top: 111px;
+
+  &-logo {
+    width: 161px;
+    height: 94px;
+  }
+
+  &-text {
+    width: 275px;
+    height: 129px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 10px;
+    margin: 0;
+  }
+
+  &-icon {
+    width: 26px;
+    height: 26px;
+    padding-right: 28px;
   }
 }
