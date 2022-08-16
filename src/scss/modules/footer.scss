@@ -12,14 +12,13 @@ footer {
 .footer {
   &__download {
     width: 782px;
-    height: 512px;
+    height: 511px;
     border: 2px solid #794BFF;
     border-radius: 20px;
     background: #fff;
-    position: relative;
   }
 
-  &__logo {
+  &__logo1 {
     width: 245px;
     height: 141px;
     margin: 31px 269px 0 269px;
@@ -58,22 +57,26 @@ footer {
       vertical-align: top;
     }
   }
+}
 
-  &__button-google {
-    padding-top: 39px;
-    width: 180px;
-    height: 58px;
-    top: 4199px;
-    left: 606px;
-    position: absolute;
-  }
+.footer {
+  &__button {
+    &-google {
+      padding-top: 39px;
+      bottom: 64px;
+      width: 180px;
+      height: 58px;
+      top: 4199px;
+      margin-left: 219px;
+    }
 
-  &__button-store {
-    padding-top: 39px;
-    width: 185px;
-    height: 58px;
-    top: 4199px;
-    left: 793px;
-    position: absolute;
+    &-store {
+      padding-top: 39px;
+      bottom: 64px;
+      width: 185px;
+      height: 58px;
+      top: 4199px;
+      left: 747px;
+    }
   }
 }
