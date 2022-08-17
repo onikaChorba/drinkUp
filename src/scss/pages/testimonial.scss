@@ -15,102 +15,72 @@
     margin: 0 auto;
   }
 
-  &__info-text {}
+  &__slider {
+    bottom: 44px;
+  }
+
+  &__img-user {
+    width: 153px;
+    height: 153px;
+    top: 3434px;
+    left: 265px;
+    position: absolute;
+  }
 }
 
+.list-slide {
+  &__text {
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 67px 52px 0px 143px;
+  }
 
+  &__user {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+    margin-left: 143px;
+  }
+}
 
+.slider-content {
+  max-width: 792px;
+  height: 236px;
+  border: 2px solid #AD90FF;
+  box-shadow: 5px, 11px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  color: #000;
+  display: flex;
+  margin: 0 auto;
+}
 
+.splide__arrow svg {
+  display: none;
+}
 
-// .testimonial__heading {
-//   color: #0B036B;
-//   width: 255px;
-//   max-height: 58px;
-//   font-weight: 900;
-//   font-size: 48px;
-//   line-height: 58px;
-//   margin: 0px;
-//   padding-left: 620px;
-// }
+.testimonial__slider {
+  .splide__pagination__page:hover {
+    background: #B186F1;
+    cursor: pointer;
+    opacity: 0.9;
+  }
 
-// .testimonial__text {
-//   width: 783px;
-//   height: 62px;
-//   font-weight: 300;
-//   line-height: 22px;
-//   color: #000;
-//   margin-bottom: 0px;
-//   margin-left: 50px;
-//   text-align: center;
-//   padding-left: 328px;
-// }
+  .splide__pagination__page.is-active {
+    background: #B186F1;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
 
-// .testimonial__slider {
-//   left: 341px;
-//   bottom: 44px;
-//   max-width: 792px;
-// }
-
-// .testimonial__slider-content {
-//   width: 792px;
-//   height: 236px;
-//   border: 2px solid #AD90FF;
-//   box-shadow: 5px, 11px rgba(0, 0, 0, 0.15);
-//   border-radius: 15px;
-//   color: #000;
-//   display: flex;
-// }
-
-// .testimonial__slider-opinion {
-//   width: 597px;
-//   height: 77px;
-//   font-weight: 300;
-//   font-size: 20px;
-//   line-height: 24px;
-//   margin: 67px 52px 0px 143px;
-// }
-
-// .testimonial__slider-user {
-//   width: 118px;
-//   height: 26px;
-//   font-weight: 400;
-//   font-size: 22px;
-//   line-height: 27px;
-//   color: #000;
-//   margin-left: 143px;
-// }
-
-// element.style {
-//   max-height: 236px;
-// }
-
-// .testimonial__slider {
-//   .splide__arrow svg {
-//     display: none;
-//   }
-
-//   .splide__pagination__page.is-active {
-//     background: #B186F1;
-//     border-radius: 50%;
-//     width: 20px;
-//     height: 20px;
-//   }
-
-//   .splide__pagination__page {
-//     width: 20px;
-//     height: 20px;
-//     border-radius: 50%;
-//     margin: 10px;
-//     border: 2px solid #B186F1;
-//     background: transparent;
-//     top: 27px;
-//   }
-// }
-
-// .testimonial__img-user {
-//   width: 153px;
-//   height: 153px;
-//   top: 3390px;
-//   left: 305px;
-//   position: absolute;
-// }
+  .splide__pagination__page {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid #B186F1;
+    background: transparent;
+    top: 27px;
+  }
+}
