@@ -12,7 +12,7 @@ body {
   border: none;
   text-decoration: none;
   background: url('/src/assets/images/Vector1.png') no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   position: relative;
 }
@@ -20,4 +20,35 @@ body {
 a {
   text-decoration: none;
   color: #ffff;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  margin: 0;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  margin: 0;
+}
+
+.btn {
+  width: 212px;
+  height: 57px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+
+  a {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.4px;
+  }
 }

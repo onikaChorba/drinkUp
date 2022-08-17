@@ -4,58 +4,64 @@ footer {
 }
 
 .footer__conteiner {
-  padding-left: 390px;
-  padding-top: 153px;
+  width: 100%;
+  display: flex;
+  // padding-left: 390px;
+  // padding-top: 153px;
 }
 
 .footer {
   &__download {
-    width: 782px;
-    height: 511px;
-    border: 2px solid #794BFF;
-    border-radius: 20px;
-    background: #fff;
+    margin: 0 auto;
   }
 
-  &__logo1 {
-    width: 245px;
-    height: 141px;
-    margin: 31px 269px 0 269px;
-  }
+  // &__download {
+  //   width: 782px;
+  //   height: 511px;
+  //   border: 2px solid #794BFF;
+  //   border-radius: 20px;
+  //   background: #fff;
+  // }
 
-  &__text {
-    width: 613px;
-    height: 63px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #000;
-    margin-left: 76px;
-    margin-top: 18px;
-  }
+  // &__logo1 {
+  //   width: 245px;
+  //   height: 141px;
+  //   margin: 31px 269px 0 269px;
+  // }
 
-  &__heading {
-    width: 363px;
-    height: 58px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
-    color: #000000;
-    margin-top: 39px;
-    margin-left: 209px;
-    vertical-align: top;
+  // &__text {
+  //   width: 613px;
+  //   height: 63px;
+  //   font-weight: 300;
+  //   font-size: 18px;
+  //   line-height: 22px;
+  //   text-align: center;
+  //   color: #000;
+  //   margin-left: 76px;
+  //   margin-top: 18px;
+  // }
 
-    span {
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 22px;
-      color: #5A3BDF;
-      margin-top: 0px;
-      vertical-align: top;
-    }
-  }
+  // &__heading {
+  //   width: 363px;
+  //   height: 58px;
+  //   font-weight: 700;
+  //   font-size: 32px;
+  //   line-height: 38px;
+  //   text-align: center;
+  //   color: #000000;
+  //   margin-top: 39px;
+  //   margin-left: 209px;
+  //   vertical-align: top;
+
+  //   span {
+  //     font-weight: 500;
+  //     font-size: 18px;
+  //     line-height: 22px;
+  //     color: #5A3BDF;
+  //     margin-top: 0px;
+  //     vertical-align: top;
+  //   }
+  // }
 }
 
 .footer {
@@ -104,4 +110,29 @@ footer {
     height: 26px;
     padding-right: 28px;
   }
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 175px 149px 0 478px;
+
+  &-item {}
+}
+
+.download {
+  max-width: 782px;
+  border: 2px solid #794BFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // background: #fff;
+
+  &__logo {}
+
+  &__text {}
+
+  &__heading {}
 }
