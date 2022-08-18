@@ -22,8 +22,9 @@
 }
 
 .list-slide {
+
   &__text {
-    max-width: 600px;
+    max-width: 70%;
     font-size: 20px;
     line-height: 24px;
     margin: 67px 52px 0px 143px;
@@ -49,7 +50,7 @@
 }
 
 .slider-content {
-  max-width: 792px;
+  max-width: 56%;
   height: 236px;
   border: 2px solid #AD90FF;
   box-shadow: 5px, 11px rgba(0, 0, 0, 0.15);
