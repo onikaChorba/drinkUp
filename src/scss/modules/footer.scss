@@ -7,10 +7,15 @@ footer {
   &__download {
     margin: 0 auto;
   }
+
+  &__subscribe {
+    padding-top: 111px;
+    padding-left: 121px;
+  }
 }
 
 .download {
-  max-width: 782px;
+  max-width: 52%;
   border: 2px solid #794BFF;
   border-radius: 20px;
   display: flex;
@@ -55,71 +60,38 @@ footer {
   }
 }
 
-// .footer__conteiner {
-//   width: 100%;
-//   display: flex;
-//   // padding-left: 390px;
-//   // padding-top: 153px;
-// }
+.download-button {
+  img {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
 
-// .footer {
-//   &__download {
-//     margin: 0 auto;
-//   }
+.subscribe {
+  &__logo {
+    max-width: 16%;
+  }
 
+  &__text {
+    max-width: 20%;
+    font-weight: 400;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    color: #fff;
+  }
 
-
-// &__logo1 {
-//   width: 245px;
-//   height: 141px;
-//   margin: 31px 269px 0 269px;
-// }
-
-// &__text {
-//   width: 613px;
-//   height: 63px;
-//   font-weight: 300;
-//   font-size: 18px;
-//   line-height: 22px;
-//   text-align: center;
-//   color: #000;
-//   margin-left: 76px;
-//   margin-top: 18px;
-// }
-
-// &__heading {
-//  
-//   margin-top: 39px;
-//   margin-left: 209px;
-//   vertical-align: top;
-
-//   span {
-//     
-//   }
-// }
+  &__icon {
+    width: 26px;
+    height: 26px;
+    padding-right: 28px;
+  }
+}
 
 
-// .footer {
-//   &__button {
-//     &-google {
-//       padding-top: 39px;
-//       bottom: 64px;
-//       width: 180px;
-//       height: 58px;
-//       top: 4199px;
-//       margin-left: 219px;
-//     }
 
-//     &-store {
-//       padding-top: 39px;
-//       bottom: 64px;
-//       width: 185px;
-//       height: 58px;
-//       top: 4199px;
-//       left: 747px;
-//     }
-//   }
-// }
+
+
+
 
 // .footer__subscribe {
 //   padding-left: 110px;
@@ -130,20 +102,9 @@ footer {
 //     height: 94px;
 //   }
 
-//   &-text {
-//     width: 275px;
-//     height: 129px;
-//     font-weight: 400;
-//     font-size: 18px;
-//     line-height: 22px;
-//     padding-top: 10px;
-//     margin: 0;
-//   }
-
 //   &-icon {
-//     width: 26px;
-//     height: 26px;
-//     padding-right: 28px;
+//     
+//     
 //   }
 // }
 
