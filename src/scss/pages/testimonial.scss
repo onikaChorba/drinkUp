@@ -19,13 +19,6 @@
     bottom: 44px;
   }
 
-  &__img-user {
-    width: 153px;
-    height: 153px;
-    top: 3434px;
-    left: 265px;
-    position: absolute;
-  }
 }
 
 .list-slide {
@@ -42,6 +35,16 @@
     line-height: 27px;
     text-align: left;
     margin-left: 143px;
+  }
+
+  &__user-img {
+    width: 153px;
+    height: 153px;
+    z-index: 3000;
+    top: 35px;
+    margin-top: -160px;
+    margin-left: -50px;
+
   }
 }
 
@@ -81,6 +84,6 @@
     margin: 10px;
     border: 2px solid #B186F1;
     background: transparent;
-    top: 27px;
+    top: 67px;
   }
 }
