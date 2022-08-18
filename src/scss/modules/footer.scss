@@ -3,121 +3,10 @@ footer {
   background-size: cover;
 }
 
-.footer__conteiner {
-  width: 100%;
-  display: flex;
-  // padding-left: 390px;
-  // padding-top: 153px;
-}
-
 .footer {
   &__download {
     margin: 0 auto;
   }
-
-  // &__download {
-  //   width: 782px;
-  //   height: 511px;
-  //   border: 2px solid #794BFF;
-  //   border-radius: 20px;
-  //   background: #fff;
-  // }
-
-  // &__logo1 {
-  //   width: 245px;
-  //   height: 141px;
-  //   margin: 31px 269px 0 269px;
-  // }
-
-  // &__text {
-  //   width: 613px;
-  //   height: 63px;
-  //   font-weight: 300;
-  //   font-size: 18px;
-  //   line-height: 22px;
-  //   text-align: center;
-  //   color: #000;
-  //   margin-left: 76px;
-  //   margin-top: 18px;
-  // }
-
-  // &__heading {
-  //   width: 363px;
-  //   height: 58px;
-  //   font-weight: 700;
-  //   font-size: 32px;
-  //   line-height: 38px;
-  //   text-align: center;
-  //   color: #000000;
-  //   margin-top: 39px;
-  //   margin-left: 209px;
-  //   vertical-align: top;
-
-  //   span {
-  //     font-weight: 500;
-  //     font-size: 18px;
-  //     line-height: 22px;
-  //     color: #5A3BDF;
-  //     margin-top: 0px;
-  //     vertical-align: top;
-  //   }
-  // }
-}
-
-.footer {
-  &__button {
-    &-google {
-      padding-top: 39px;
-      bottom: 64px;
-      width: 180px;
-      height: 58px;
-      top: 4199px;
-      margin-left: 219px;
-    }
-
-    &-store {
-      padding-top: 39px;
-      bottom: 64px;
-      width: 185px;
-      height: 58px;
-      top: 4199px;
-      left: 747px;
-    }
-  }
-}
-
-.footer__subscribe {
-  padding-left: 110px;
-  padding-top: 111px;
-
-  &-logo {
-    width: 161px;
-    height: 94px;
-  }
-
-  &-text {
-    width: 275px;
-    height: 129px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    padding-top: 10px;
-    margin: 0;
-  }
-
-  &-icon {
-    width: 26px;
-    height: 26px;
-    padding-right: 28px;
-  }
-}
-
-.footer__contact {
-  display: flex;
-  justify-content: space-between;
-  padding: 175px 149px 0 478px;
-
-  &-item {}
 }
 
 .download {
@@ -128,11 +17,150 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // background: #fff;
+  background: #fff;
+  text-align: center;
 
-  &__logo {}
+  &__logo {
+    margin-top: 31px;
+  }
 
-  &__text {}
+  &__text {
+    max-width: 80%;
 
-  &__heading {}
+    padding-top: 18px;
+  }
+
+  &__heading {
+    max-width: 46%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin: 0;
+    padding-top: 39px;
+
+    span {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #5A3BDF;
+      margin-top: 0px;
+      vertical-align: top;
+    }
+  }
+
+  &__button {
+    padding-top: 39px;
+    margin-bottom: 64px;
+  }
 }
+
+// .footer__conteiner {
+//   width: 100%;
+//   display: flex;
+//   // padding-left: 390px;
+//   // padding-top: 153px;
+// }
+
+// .footer {
+//   &__download {
+//     margin: 0 auto;
+//   }
+
+
+
+// &__logo1 {
+//   width: 245px;
+//   height: 141px;
+//   margin: 31px 269px 0 269px;
+// }
+
+// &__text {
+//   width: 613px;
+//   height: 63px;
+//   font-weight: 300;
+//   font-size: 18px;
+//   line-height: 22px;
+//   text-align: center;
+//   color: #000;
+//   margin-left: 76px;
+//   margin-top: 18px;
+// }
+
+// &__heading {
+//  
+//   margin-top: 39px;
+//   margin-left: 209px;
+//   vertical-align: top;
+
+//   span {
+//     
+//   }
+// }
+
+
+// .footer {
+//   &__button {
+//     &-google {
+//       padding-top: 39px;
+//       bottom: 64px;
+//       width: 180px;
+//       height: 58px;
+//       top: 4199px;
+//       margin-left: 219px;
+//     }
+
+//     &-store {
+//       padding-top: 39px;
+//       bottom: 64px;
+//       width: 185px;
+//       height: 58px;
+//       top: 4199px;
+//       left: 747px;
+//     }
+//   }
+// }
+
+// .footer__subscribe {
+//   padding-left: 110px;
+//   padding-top: 111px;
+
+//   &-logo {
+//     width: 161px;
+//     height: 94px;
+//   }
+
+//   &-text {
+//     width: 275px;
+//     height: 129px;
+//     font-weight: 400;
+//     font-size: 18px;
+//     line-height: 22px;
+//     padding-top: 10px;
+//     margin: 0;
+//   }
+
+//   &-icon {
+//     width: 26px;
+//     height: 26px;
+//     padding-right: 28px;
+//   }
+// }
+
+// .footer__contact {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 175px 149px 0 478px;
+
+//   &-item {}
+// }
+
+// .download {
+//   
+
+//   &__logo {}
+
+//   &__text {}
+
+//   &__heading {}
+// }
