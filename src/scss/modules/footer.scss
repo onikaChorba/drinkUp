@@ -8,55 +8,55 @@ footer {
     margin: 0 auto;
   }
 
-  &__subscribe {
-    padding-top: 111px;
-    padding-left: 121px;
-  }
-}
-
-.download {
-  max-width: 52%;
-  border: 2px solid #794BFF;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  text-align: center;
-
-  &__logo {
-    margin-top: 31px;
+  &__contacts {
+    padding: 111px 110px 48px 120px;
+    display: flex;
+    justify-content: space-between;
   }
 
-  &__text {
-    max-width: 80%;
+  .download {
+    max-width: 52%;
+    border: 2px solid #794BFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    text-align: center;
 
-    padding-top: 18px;
-  }
-
-  &__heading {
-    max-width: 46%;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #000000;
-    margin: 0;
-    padding-top: 39px;
-
-    span {
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 22px;
-      color: #5A3BDF;
-      margin-top: 0px;
-      vertical-align: top;
+    &__logo {
+      margin-top: 31px;
     }
-  }
 
-  &__button {
-    padding-top: 39px;
-    margin-bottom: 64px;
+    &__text {
+      max-width: 80%;
+      padding-top: 18px;
+    }
+
+    &__heading {
+      max-width: 46%;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38px;
+      color: #000000;
+      margin: 0;
+      padding-top: 39px;
+
+      span {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #5A3BDF;
+        margin-top: 0px;
+        vertical-align: top;
+      }
+    }
+
+    &__button {
+      padding-top: 39px;
+      margin-bottom: 64px;
+    }
   }
 }
 
@@ -68,16 +68,20 @@ footer {
 }
 
 .subscribe {
+  max-width: 275px;
+  padding-right: 53px;
+
   &__logo {
-    max-width: 16%;
+    max-width: 161px;
   }
 
   &__text {
-    max-width: 20%;
+    max-width: 100%;
     font-weight: 400;
     padding-top: 11px;
     padding-bottom: 15px;
     color: #fff;
+    text-align: left;
   }
 
   &__icon {
@@ -87,41 +91,26 @@ footer {
   }
 }
 
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  text-align: left;
 
+  &__item {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
 
+  &__item-link {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #C8BDEA;
+  }
 
-
-
-
-// .footer__subscribe {
-//   padding-left: 110px;
-//   padding-top: 111px;
-
-//   &-logo {
-//     width: 161px;
-//     height: 94px;
-//   }
-
-//   &-icon {
-//     
-//     
-//   }
-// }
-
-// .footer__contact {
-//   display: flex;
-//   justify-content: space-between;
-//   padding: 175px 149px 0 478px;
-
-//   &-item {}
-// }
-
-// .download {
-//   
-
-//   &__logo {}
-
-//   &__text {}
-
-//   &__heading {}
-// }
+  &__item-list {
+    color: #fff;
+    font-weight: 700;
+  }
+}
