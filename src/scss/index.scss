@@ -7,7 +7,10 @@
 
 /* FRONT PAGE */
 @import './pages/Front-page/index.scss';
-@import './pages/task.scss';
-@import './pages/servises.scss';
-@import './pages/become.scss';
-@import './pages/testimonial.scss';
+@import './pages/Front-page/task/task.scss';
+@import './pages/Front-page/servises/servises.scss';
+@import './pages/Front-page/become/become.scss';
+@import './pages/Front-page/testimonial/testimonial.scss';
+
+/*Upselldrinks */
+@import './pages/Upselldrinks/article/article.scss';
