@@ -16,7 +16,8 @@ module.exports = {
     entry: {
         main: path.resolve(__dirname, './src/index.js'),
         upselldrinks: path.resolve(__dirname, './src/js/upselldrinks.js'),
-        features: path.resolve(__dirname, './src/js/features.js')
+        features: path.resolve(__dirname, './src/js/features.js'),
+        ourteam: path.resolve(__dirname, './src/js/ourteam.js'),
     },
     output: {
         path: path.resolve(__dirname, './dist'),
@@ -36,6 +37,11 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'webpack Boilerplate',
             template: path.resolve(__dirname, './src/features.html'), // шаблон
+            filename: 'features.html', // название выходного файла
+        }),
+        new HtmlWebpackPlugin({
+            title: 'webpack Boilerplate',
+            template: path.resolve(__dirname, './src/ourteam.html'), // шаблон
             filename: 'index.html', // название выходного файла
         }),
         new CleanWebpackPlugin(),
