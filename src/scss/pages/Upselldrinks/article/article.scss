@@ -1,0 +1,36 @@
+.article-container {
+  padding: 128px 200px 0px 220px;
+}
+
+.article {
+
+  &__main-heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #5637DE;
+    margin: 0;
+  }
+
+  &__text-heading {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 35px;
+  }
+}
+
+.article-info {
+  margin-bottom: 87px;
+  text-align: justify;
+  color: #000;
+
+
+  &__heading {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
