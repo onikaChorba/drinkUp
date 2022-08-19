@@ -1,0 +1,48 @@
+.ourteam-sectiom {
+  &__box {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+}
+
+.ourteam {
+  text-align: center;
+  max-width: 260px;
+  margin: 24px 48px;
+  flex: 0 1 50%;
+
+  &__img {
+    width: 247px;
+    height: 247px;
+  }
+}
+
+
+
+.team-name {
+  &__heading {
+    max-width: 95%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000;
+    padding-top: 20px;
+
+    span {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #5637DE;
+    }
+  }
+
+  &__text {
+    padding-top: 10px;
+  }
+}
+
+.ourteams {
+  display: flex;
+  flex-wrap: wrap;
+}
