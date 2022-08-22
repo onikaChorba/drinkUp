@@ -1,28 +1,27 @@
 .header__container {
     max-width: 1522px;
+    padding: 2.2% 10.3% 0px 7.3%;
 }
 
 .header__nav-bars {
     display: flex;
-    padding: 33px 157px 0px 111px;
+    justify-content: space-between;
     align-items: center;
 
     .header__logo {
         img {
-            width: 191px;
+            width: 100%;
             height: 111px;
         }
     }
 
     .header__nav-bar {
-        padding-left: 440px;
 
         .header__nav-list {
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 612px;
-            height: 28px;
 
             a {
                 display: inline-block;
