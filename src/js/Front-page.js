@@ -12,3 +12,4 @@ document.addEventListener('DOMContentLoaded', function () {
     "perPage": 1,
   }).mount();
 });
+
