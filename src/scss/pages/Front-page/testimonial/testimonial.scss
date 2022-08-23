@@ -39,16 +39,6 @@
     text-align: left;
     margin-left: 143px;
   }
-
-  &__user-img {
-    width: 153px;
-    height: 153px;
-    z-index: 3000;
-    top: 35px;
-    margin-top: -160px;
-    margin-left: -50px;
-
-  }
 }
 
 .slider-content {
@@ -89,4 +79,12 @@
     background: transparent;
     top: 67px;
   }
+}
+
+.slide__user-img {
+  width: 153px;
+  height: 153px;
+  padding-left: 15.4%;
+  top: 100px;
+  position: absolute;
 }
