@@ -36,12 +36,11 @@
 }
 
 .header__nav-icon {
+    display: none;
+
     img {
-        width: 70px;
-        height: 70px;
-        color: #fff;
+        width: 50px;
+        height: 50px;
+        filter: brightness(0) invert(1);
     }
-
-    // display: none;
-
 }
