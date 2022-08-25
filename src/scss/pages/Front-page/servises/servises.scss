@@ -1,6 +1,11 @@
-.servises-container {
+.servises-section {
   background: #5030DD;
   height: 673px;
+}
+
+.servises {
+  display: flex;
+  justify-content: space-between;
 }
 
 .servises__img {
@@ -108,8 +113,8 @@
 }
 
 .servises__content {
-  float: right;
-  padding: 220px 156px 0px 844px;
+  margin-top: 220px;
+  margin-right: 156px;
 }
 
 .content-list {
