@@ -1,4 +1,4 @@
-@media (max-width:1370px) {
+@media (max-width:1150px) {
   .hero {
     &__content {
       padding-top: 30px;
@@ -26,36 +26,10 @@
 }
 
 @media (max-width:1040px) {
-
-  .hero {
-    &__content {
-      padding-left: 120px;
-    }
-
-    .main-text {
-      padding-left: 0;
-    }
-
-    .header__logo {
-      img {
-        width: 100%;
-        height: 50px;
-      }
-    }
-
-    .header__nav-list {
-      a {
-        display: block;
-        margin: 10px;
-        width: 70%;
-      }
-    }
-
-    .elipse {
-      display: none;
-    }
-
+  .elipse {
+    display: none;
   }
+
 }
 
 @media (max-width:1000px) {
@@ -125,69 +99,116 @@
 @media (max-width:810px) {
   .header__logo {
     img {
-      max-width: 80%;
-      padding-left: 10px;
-    }
-  }
-
-  .main-text {
-    h1 {
-      font-weight: 300;
-      font-size: 30px;
-      line-height: 32px;
+      max-width: 35%;
     }
 
-    span {
-      font-weight: 400;
-      font-size: 34px;
-      line-height: 36px;
+    .main-text {
+      h1 {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 32px;
+      }
+
+      span {
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 36px;
+      }
     }
   }
 
   .header__nav-icon {
     img {
-      width: 30px;
+      max-width: 30px;
       height: 30px;
-
     }
   }
 }
 
-@media (max-width:714px) {
-  .main-text {
-    max-width: 62%;
-  }
-}
+@media(max-width:780px) {
 
-@media (max-width:640px) {
-  .hero__content {
-    padding-top: 10px;
-  }
 
   .main-text {
+    max-width: 65%;
+
     h1 {
       font-weight: 300;
-      font-size: 26px;
-      line-height: 28px;
+      font-size: 24px;
+      line-height: 26px;
     }
 
     span {
       font-weight: 400;
-      font-size: 28px;
-      line-height: 30px;
+      font-size: 26px;
+      line-height: 28px;
       margin-bottom: 5px;
     }
 
     &__text {
       font-weight: 300;
-      font-size: 14px;
-      line-height: 16px;
+      font-size: 12px;
+      line-height: 13px;
+    }
+  }
+}
+
+@media(max-width:530px) {
+  .hero__content {
+    padding-top: 5px;
+  }
+}
+
+@media (max-width:411px) {
+  .hero__content {
+    padding-left: 20px;
+  }
+
+  .main-text {
+    h1 {
+      font-weight: 300;
+      font-size: 20px;
+    }
+
+    span {
+      font-size: 22px;
+    }
+
+    &__text {
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 13px;
     }
 
     &__button {
-      margin-top: 5px;
+      border: 2px solid #794BFF;
     }
   }
 
+  .btn__a {
+    color: #794BFF;
+  }
+}
+
+@media (max-width:355px) {
+  .main-text {
+    h1 {
+      font-size: 15px;
+    }
+
+    span {
+      font-size: 18px;
+
+    }
+
+    &__text {
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 10px;
+    }
+
+    &__heading {
+      margin-bottom: 5px;
+    }
+  }
 
 }
