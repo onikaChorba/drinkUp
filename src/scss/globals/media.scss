@@ -1,4 +1,6 @@
 @media (max-width:1150px) {
+
+  /*hero*/
   .hero {
     &__content {
       padding-top: 30px;
@@ -23,12 +25,15 @@
       line-height: 47px;
     }
   }
+
+
 }
 
 @media (max-width:1040px) {
   .elipse {
     display: none;
   }
+
 
 }
 
@@ -63,6 +68,18 @@
     &__button {
       margin-top: 20px;
     }
+  }
+
+  /*task*/
+  .main-icon {
+    width: 20%;
+
+    &__text {
+      font-weight: 300;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
   }
 }
 
