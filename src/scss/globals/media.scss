@@ -35,6 +35,7 @@
   }
 
 
+
 }
 
 @media (max-width:1000px) {
@@ -70,7 +71,6 @@
     }
   }
 
-  /*task*/
   .main-icon {
     width: 20%;
 
@@ -79,8 +79,16 @@
       font-size: 15px;
       margin-bottom: 10px;
     }
-
   }
+
+  /*task*/
+  .box-items {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
 }
 
 @media (max-width:850px) {
