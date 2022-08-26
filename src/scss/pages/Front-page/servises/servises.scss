@@ -8,66 +8,90 @@
   justify-content: space-between;
 }
 
+.servises__content {
+  padding-left: 55.5%;
+}
+
 .servises__img {
   box-sizing: border-box;
 }
 
 .img1 {
-  width: 366px;
-  height: 366px;
-  margin-top: -38px;
-  padding-left: 214px;
-  position: absolute;
+  img {
+    max-width: 366px;
+    width: 100%;
+    height: auto;
+    margin-top: -38px;
+    padding-left: 14%;
+    position: absolute;
+  }
 }
 
 .img2 {
-  width: 220px;
-  height: 220px;
-  margin-top: 145px;
-  padding-left: 45px;
-  position: absolute;
+  img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    padding-top: 145px;
+    padding-left: 3%;
+    position: absolute;
+  }
 }
 
 .img3 {
-  width: 220px;
-  height: 220px;
-  margin-top: 188px;
-  padding-left: 503px;
-  position: absolute;
+  img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    margin-top: 188px;
+    padding-left: 33%;
+    position: absolute;
+  }
 }
 
 .img4 {
-  width: 248px;
-  height: 248px;
-  margin-top: 345px;
-  padding-left: 76px;
-  position: absolute;
+  img {
+    max-width: 248px;
+    width: 100%;
+    height: auto;
+    margin-top: 345px;
+    padding-left: 5%;
+    position: absolute;
+  }
 }
 
 .img5 {
-  width: 298px;
-  height: 298px;
-  margin-top: 350px;
-  padding-left: 439px;
-  position: absolute;
+  img {
+    max-width: 298px;
+    width: 100%;
+    height: auto;
+    margin-top: 350px;
+    padding-left: 29%;
+    position: absolute;
+  }
 }
 
 .img6 {
-  width: 292px;
-  height: 292px;
-  margin-top: 418px;
-  padding-left: 251px;
-  position: absolute;
+  img {
+    max-width: 292px;
+    width: 100%;
+    height: auto;
+    margin-top: 418px;
+    padding-left: 16.5%;
+    position: absolute;
+  }
 }
 
 .img7 {
-  width: 156px;
-  height: 156px;
-  margin-top: 583px;
-  padding-left: 102px;
-  position: absolute;
+  img {
+    max-width: 156px;
+    width: 100%;
+    height: auto;
+    margin-top: 583px;
+    padding-left: 7%;
+    position: absolute;
+  }
 }
-
 
 .ellips11 {
   width: 102px;
@@ -122,8 +146,9 @@
   justify-content: space-between;
 
   &__icon {
-    width: 80px;
+    max-width: 80px;
     height: 79px;
+    width: 100%;
     background: #FFFFFF;
     border-radius: 50%;
     box-sizing: border-box;
@@ -142,18 +167,20 @@
 }
 
 .text-list {
+
   &__heading {
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-    max-width: 143px;
+    max-width: 80%;
     margin: 0;
     margin-bottom: 10px;
     margin-top: -20px;
   }
 
   &__text {
-    max-width: 352px;
+    width: 100%;
+    height: auto;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
