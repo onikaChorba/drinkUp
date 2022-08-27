@@ -164,7 +164,37 @@
     margin: auto;
     padding-top: 50px;
   }
+
+  .footer__contacts {
+    display: block;
+    flex-direction: column;
+  }
+
+  .footer__contacts-subscribe {
+    margin: 0 auto;
+    padding-right: 0;
+  }
+
+  .subscribe {
+    &__text {
+      text-align: center;
+    }
+
+    &__logo {
+      margin: auto;
+    }
+
+    &__icon {
+      text-align: center;
+    }
+  }
+
+  .subscribe-icon {
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }
+
 
 @media (max-width:850px) {
   .hero {
@@ -206,6 +236,7 @@
       padding-right: 0;
     }
   }
+
 }
 
 @media (max-width:810px) {
@@ -243,6 +274,11 @@
       img {
         width: 100%;
       }
+    }
+
+    &__heading {
+      font-weight: 500;
+      font-size: 28px;
     }
   }
 }
@@ -327,6 +363,11 @@
     &__text {
       font-size: 10px;
     }
+  }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
