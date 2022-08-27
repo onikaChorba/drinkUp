@@ -1,7 +1,3 @@
-@media(max-width:1360) {
-  .slide__user-img {}
-}
-
 @media (max-width:1231px) {
   .servises__content {
     margin-top: 120px;
@@ -237,6 +233,16 @@
     img {
       max-width: 30px;
       height: 30px;
+    }
+  }
+
+  .download {
+    &__logo {
+      width: 60%;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }
