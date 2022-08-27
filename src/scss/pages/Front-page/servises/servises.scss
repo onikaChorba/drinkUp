@@ -5,15 +5,10 @@
 
 .servises {
   display: flex;
-  justify-content: space-between;
 }
 
 .servises__content {
   padding-left: 55.5%;
-}
-
-.servises__img {
-  box-sizing: border-box;
 }
 
 .img1 {
@@ -143,7 +138,6 @@
 
 .content-list {
   display: flex;
-  justify-content: space-between;
 
   &__icon {
     max-width: 80px;
@@ -153,7 +147,6 @@
     border-radius: 50%;
     box-sizing: border-box;
     margin-bottom: 53px;
-    // margin-right: 57px;
     display: flex;
     justify-content: center;
     align-items: center;
