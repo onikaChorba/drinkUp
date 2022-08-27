@@ -1,3 +1,7 @@
+@media(max-width:1360) {
+  .slide__user-img {}
+}
+
 @media (max-width:1231px) {
   .servises__content {
     margin-top: 120px;
@@ -61,13 +65,6 @@
   }
 }
 
-.text-list {
-  &__text {
-    width: 80%;
-    margin: 0 auto;
-  }
-}
-
 @media (max-width:1000px) {
   .header__nav-bar {
     display: none;
@@ -126,10 +123,6 @@
     }
   }
 }
-
-
-
-
 
 @media (max-width:930px) {
   .main-text {
@@ -285,31 +278,52 @@
   .content-info {
     padding-top: 50px;
   }
-}
 
-@media(max-width:650px) {
   .content-img {
     &__img {
-      width: 80%;
+      width: 90%;
 
       img {
         width: 100%;
         height: auto;
       }
     }
+  }
 
-    .content-info {
-      &__heading {
-        font-size: 30;
-        font-weight: 400;
-      }
+  .slider-content {
+    width: 80%;
+    height: auto;
+  }
 
-      &__text {
-        font-size: 10px;
-      }
+  .list-slide {
+    padding-top: 30px;
+
+    &__text {
+      font-size: 12px;
+      line-height: 14px;
+      margin: 0 auto;
+    }
+
+    &__user {
+      font-size: 14px;
+      line-height: 16px;
     }
   }
 }
+
+@media(max-width:650px) {
+  .content-info {
+    &__heading {
+      font-size: 30;
+      font-weight: 400;
+    }
+
+    &__text {
+      font-size: 10px;
+    }
+  }
+}
+
 
 @media(max-width:530px) {
   .hero__content {
@@ -391,5 +405,4 @@
       margin-bottom: 5px;
     }
   }
-
 }
