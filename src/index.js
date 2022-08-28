@@ -1,3 +1,3 @@
-import './scss/index.scss'
-import { makeAlert } from './js/Front-page'
+import './scss/index.scss';
+import './js/Front-page';
 

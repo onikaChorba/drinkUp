@@ -11,5 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
     heightRatio: 0.5,
     "perPage": 1,
   }).mount();
-});
+}
+);
+
+
+
+
 
