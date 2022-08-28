@@ -42,6 +42,23 @@
       width: 50%;
     }
   }
+
+  .textboxs {
+    flex-direction: column;
+  }
+
+  .box-m {
+    max-width: fit-content;
+  }
+
+  .box-s {
+    max-width: fit-content;
+  }
+
+  .feature-textboxs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 @media(max-width:1112px) {
