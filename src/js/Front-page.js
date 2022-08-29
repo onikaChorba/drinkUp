@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     "perPage": 1,
   }).mount();
   navSlide();
-  // navSlide()
+  imgAnimate();
 
 });
 
@@ -34,14 +34,12 @@ document.addEventListener('DOMContentLoaded', function () {
 //   })
 
 //   function imgSise() {
-//     console.log('hi');
-//     for (let i = 0, length = imgs.length; i < length; i++) {
-//       if (i in imgs) {
-//         imgs[0].style.display = 'none';
-//       }
-//     }
 //   }
 // }
+
+
+
+
 //menu
 const navSlide = () => {
   const burger = document.querySelector(".burger");
@@ -61,10 +59,8 @@ const navSlide = () => {
           }s `;
       }
     });
-
     burger.classList.toggle("toggle");
   };
-  //
 };
 
 

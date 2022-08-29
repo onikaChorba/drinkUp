@@ -72,6 +72,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  flex: 0 1 50%;
+  justify-content: center;
 }
 
 .textbox-container {

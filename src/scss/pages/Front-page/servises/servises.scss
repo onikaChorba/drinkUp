@@ -11,11 +11,14 @@
   padding-left: 55.5%;
 }
 
+.servises__img {
+  box-sizing: border-box;
+}
+
 .img1 {
   img {
     max-width: 366px;
     width: 100%;
-    height: auto;
     margin-top: -38px;
     padding-left: 14%;
     position: absolute;
