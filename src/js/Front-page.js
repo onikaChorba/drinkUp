@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
     heightRatio: 0.5,
     "perPage": 1,
   }).mount();
-  // testFunction()
-  imgAnimate(),
-    navSlide();
+  navSlide();
+  // navSlide()
+
 });
 
 // function testFunction() {
@@ -27,34 +27,30 @@ document.addEventListener('DOMContentLoaded', function () {
 //   }
 // }
 
-function imgAnimate() {
-  let imgs = document.querySelectorAll('.image');
-  imgs.forEach(img => {
-    img.addEventListener('click', imgSise);
-  })
+// function imgAnimate() {
+//   let imgs = document.querySelectorAll('.image');
+//   imgs.forEach(img => {
+//     img.addEventListener('click', imgSise);
+//   })
 
-  function imgSise() {
-    console.log('hi');
-    for (let i = 0, length = imgs.length; i < length; i++) {
-      if (i in imgs) {
-        imgs[0].style.display = 'none';
-      }
-    }
-  }
-}
-
-
-
-
-
-
+//   function imgSise() {
+//     console.log('hi');
+//     for (let i = 0, length = imgs.length; i < length; i++) {
+//       if (i in imgs) {
+//         imgs[0].style.display = 'none';
+//       }
+//     }
+//   }
+// }
 //menu
 const navSlide = () => {
   const burger = document.querySelector(".burger");
-  const nav = document.querySelector(".nav-links");
+  const nav = document.querySelectorAll(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links a");
 
-  burger.addEventListener("click", () => {
+  burger.addEventListener("click", navFunction)
+
+  function navFunction() {
     nav.classList.toggle("nav-active");
 
     navLinks.forEach((link, index) => {
@@ -65,10 +61,12 @@ const navSlide = () => {
           }s `;
       }
     });
+
     burger.classList.toggle("toggle");
-  });
+  };
   //
 };
+
 
 
 
