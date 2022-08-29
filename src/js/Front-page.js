@@ -11,8 +11,65 @@ document.addEventListener('DOMContentLoaded', function () {
     heightRatio: 0.5,
     "perPage": 1,
   }).mount();
+  // testFunction()
+  imgAnimate(),
+    navSlide();
+});
+
+// function testFunction() {
+//   let imgs = document.querySelectorAll('.image');
+//   imgs.forEach(img => {
+//     img.addEventListener("click", myFunction);
+//   })
+
+//   function myFunction() {
+//     console.log("Hello World!");
+//   }
+// }
+
+function imgAnimate() {
+  let imgs = document.querySelectorAll('.image');
+  imgs.forEach(img => {
+    img.addEventListener('click', imgSise);
+  })
+
+  function imgSise() {
+    console.log('hi');
+    for (let i = 0, length = imgs.length; i < length; i++) {
+      if (i in imgs) {
+        imgs[0].style.display = 'none';
+      }
+    }
+  }
 }
-);
+
+
+
+
+
+
+//menu
+const navSlide = () => {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  burger.addEventListener("click", () => {
+    nav.classList.toggle("nav-active");
+
+    navLinks.forEach((link, index) => {
+      if (link.style.animation) {
+        link.style.animation = "";
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5
+          }s `;
+      }
+    });
+    burger.classList.toggle("toggle");
+  });
+  //
+};
+
 
 
 
