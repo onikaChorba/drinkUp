@@ -12,29 +12,29 @@ document.addEventListener('DOMContentLoaded', function () {
     "perPage": 1,
   }).mount();
   navSlide();
-
 });
 
-// function testFunction() {
-//   let imgs = document.querySelectorAll('.image');
-//   imgs.forEach(img => {
-//     img.addEventListener("click", myFunction);
-//   })
+//animation image
+console.clear();
+let angle = 360 / 6;
+let finalAngle = -360;
 
-//   function myFunction() {
-//     console.log("Hello World!");
-//   }
-// }
+const imageContainer = document.querySelectorAll(".image");
 
-// function imgAnimate() {
-//   let imgs = document.querySelectorAll('.image');
-//   imgs.forEach(img => {
-//     img.addEventListener('click', imgSise);
-//   })
 
-//   function imgSise() {
-//   }
-// }
+
+imageContainer.forEach(image => {
+
+  finalAngle -= 60;
+
+  image.style.transform = `rotate(${angle}deg)`;
+  image.style.setProperty("--start-angle-of-rotation", `-${angle}deg`);
+  image.style.setProperty("--end-angle-of-rotation", `${finalAngle}deg`);
+
+
+  angle += 60;
+
+});
 
 
 
