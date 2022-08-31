@@ -1,6 +1,7 @@
 .servises-section {
   background: #5030DD;
   height: 673px;
+  position: relative;
 }
 
 .servises {
@@ -8,85 +9,87 @@
   justify-content: space-between;
 }
 
-// .servises__content {
-//   padding-left: 55.5%;
-// }
+.servises__content {
+  width: 40%;
+}
 
 .servises__img {
   box-sizing: border-box;
+  width: 60%;
 }
 
-// .img1 {
-//   img {
-//     max-width: 366px;
-//     width: 100%;
-//     margin-top: -38px;
-//     padding-left: 14%;
-//     position: absolute;
-//   }
-// }
+.img1 {
+  img {
+    max-width: 366px;
+    width: 100%;
+    top: -38px;
+    left: 14%;
+    position: absolute;
+  }
+}
 
-// .img2 {
-//   img {
-//     max-width: 220px;
-//     width: 100%;
-//     height: auto;
-//     padding-top: 145px;
-//     padding-left: 3%;
-//     position: absolute;
-//   }
-// }
+.img2 {
+  img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    top: 145px;
+    left: 3%;
+    position: absolute;
+  }
+}
 
-// .img3 {
-//   img {
-//     max-width: 220px;
-//     width: 100%;
-//     height: auto;
-//     margin-top: 188px;
-//     padding-left: 33%;
-//     position: absolute;
-//   }
-// }
+.img3 {
+  img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    top: 188px;
+    left: 33%;
+    position: absolute;
+  }
+}
 
-// .img4 {
-//   img {
-//     max-width: 248px;
-//     width: 100%;
-//     height: auto;
-//     margin-top: 345px;
-//     padding-left: 5%;
-//     position: absolute;
-//   }
-// }
+.img4 {
+  img {
+    max-width: 248px;
+    width: 100%;
+    height: auto;
+    top: 345px;
+    left: 5%;
+    position: absolute;
+  }
+}
 
-// .img5 {
-//   img {
-//     max-width: 298px;
-//     width: 100%;
-//     height: auto;
-//     margin-top: 350px;
-//     padding-left: 29%;
-//     position: absolute;
-//   }
-// }
+.img5 {
+  img {
+    max-width: 298px;
+    width: 100%;
+    height: auto;
+    top: 350px;
+    left: 29%;
+    position: absolute;
+  }
+}
 
-// .image {
-//   max-width: 292px;
-//   width: 100%;
-//   // height: auto;
-//   // margin-top: 418px;
-//   // padding-left: 16.5%;
-//   // position: absolute;
-// }
-
+.img6 {
+  img {
+    max-width: 292px;
+    width: 100%;
+    height: auto;
+    top: 418px;
+    left: 17%;
+    position: absolute;
+  }
+}
 
 .img7 {
   img {
     max-width: 156px;
     width: 100%;
     height: auto;
-    margin-top: 583px;
-    padding-left: 7%;
+    top: 583px;
+    left: 7%;
     position: absolute;
   }
 }
