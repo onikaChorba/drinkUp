@@ -79,9 +79,11 @@
 @keyframes rotate-opposite {
   from {
     transform: rotate(let(--start-angle-of-rotation));
+    //   transform: scale(0.5, 0.5);
   }
 
   to {
     transform: rotate(let(--end-angle-of-rotation));
+    // transform: scale(3, 3);
   }
 }
