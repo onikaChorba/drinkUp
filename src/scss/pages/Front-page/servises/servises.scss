@@ -1,7 +1,7 @@
 .servises-section {
   background: #5030DD;
   height: 673px;
-  position: relative;
+
 }
 
 .servises {
@@ -9,8 +9,9 @@
   justify-content: space-between;
 }
 
-.servises__content {
-  width: 40%;
+.servises__img {
+  width: 60%;
+  position: relative;
 }
 
 .image {
@@ -55,13 +56,6 @@
   left: 5%;
   transform: scale(1);
 }
-
-
-
-
-
-
-
 
 .img7 {
   img {
