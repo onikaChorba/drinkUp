@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
     "perPage": 1,
   }).mount(),
     navSlide()
-  imgAnimate()
+  setInterval(() => imgAnimate(), 5000);
+
 });
 
 //animation image
@@ -57,7 +58,6 @@ function imgAnimate() {
     }
   }
 }
-setInterval(() => imgAnimate(), 3000);
 
 
 //menu
