@@ -1,15 +1,7 @@
-@media (max-width:1231px) {
+@media (max-width:1465px) {
+
   .servises__content {
-    margin-top: 120px;
-    margin-right: 40px;
-  }
-
-  .content-list {
-    margin-bottom: 20px;
-  }
-
-  .feature-textboxs {
-    padding-bottom: 75px;
+    margin-right: 10px;
   }
 }
 
@@ -19,7 +11,6 @@
   .hero {
     &__content {
       padding-top: 30px;
-
     }
   }
 
@@ -38,12 +29,6 @@
       font-weight: 500;
       font-size: 44px;
       line-height: 47px;
-    }
-  }
-
-  .servises__img {
-    img {
-      width: 50%;
     }
   }
 
@@ -67,13 +52,9 @@
 }
 
 @media(max-width:1112px) {
-  .servises__img {
-    width: 60%;
-    height: auto;
-  }
-
-  .servises__content {
-    padding-left: 35.5%;
+  .image {
+    max-width: 170px;
+    max-height: 170px;
   }
 }
 
@@ -98,31 +79,6 @@
     float: right;
   }
 
-  .servises {
-    display: block;
-    flex-direction: column;
-  }
-
-  .servises__content {
-    padding-top: 800px;
-    margin: 0 auto;
-    padding-left: 15%;
-  }
-
-  .servises-section {
-    height: fit-content;
-  }
-
-  .servises__img {
-    padding-left: 20%;
-    width: 100%;
-    height: auto;
-
-    img {
-      width: fit-content;
-    }
-  }
-
   .become {
     &__content {
       margin-top: 20px;
@@ -138,7 +94,6 @@
       padding-right: 10%;
     }
   }
-
 
   .content-info {
     &__heading {
@@ -187,11 +142,6 @@
     padding-bottom: 20px;
   }
 
-  .servises__img {
-    margin: auto;
-    padding-top: 50px;
-  }
-
   .footer__contacts {
     display: block;
     flex-direction: column;
@@ -218,6 +168,10 @@
 
   .subscribe-icon {
     padding-bottom: 20px;
+  }
+
+  .text-list__text {
+    margin-bottom: 20px;
   }
 }
 
@@ -265,7 +219,7 @@
 
 }
 
-@media (max-width:810px) {
+@media (max-width:816px) {
   .header__logo {
     img {
       max-width: 35%;
@@ -305,6 +259,48 @@
     &__heading {
       font-weight: 500;
       font-size: 28px;
+    }
+  }
+
+  .servises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+
+    &__img {
+      position: absolute;
+      justify-content: center;
+    }
+
+    &__content {
+      padding-top: 600px;
+      max-width: 80%;
+    }
+  }
+
+  .servises-section {
+    height: 1200px;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .text-list {
+    &__text {
+      width: 100%;
+    }
+
+    &__heading {
+      margin: 0;
+    }
+  }
+
+  .content-list {
+    &__icon {
+      margin-right: 20px;
     }
   }
 }
