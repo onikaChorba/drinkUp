@@ -148,14 +148,16 @@
     padding-bottom: 20px;
   }
 
-  .footer__contacts {
-    display: block;
-    flex-direction: column;
-  }
+  .footer {
+    &__contacts {
+      display: block;
+      flex-direction: column;
+    }
 
-  .footer__contacts-subscribe {
-    margin: 0 auto;
-    padding-right: 0;
+    &__contacts-subscribe {
+      margin: 0 auto;
+      padding-right: 0;
+    }
   }
 
   .subscribe {
@@ -188,14 +190,16 @@
     height: 573px;
   }
 
-  .servises__content {
-    margin-top: 20%;
-  }
+  .servises {
+    &__content {
+      margin-top: 20%;
+    }
 
-  .servises__img {
-    img {
-      width: 150px;
-      height: 150px;
+    &__img {
+      img {
+        width: 150px;
+        height: 150px;
+      }
     }
   }
 }
@@ -241,34 +245,35 @@
       padding-right: 0;
     }
   }
-
 }
 
 @media (max-width:816px) {
-  .header__logo {
-    img {
-      max-width: 35%;
-    }
-
-    .main-text {
-      h1 {
-        font-weight: 300;
-        font-size: 30px;
-        line-height: 32px;
+  .header {
+    &__logo {
+      img {
+        max-width: 35%;
       }
 
-      span {
-        font-weight: 400;
-        font-size: 34px;
-        line-height: 36px;
+      .main-text {
+        h1 {
+          font-weight: 300;
+          font-size: 30px;
+          line-height: 32px;
+        }
+
+        span {
+          font-weight: 400;
+          font-size: 34px;
+          line-height: 36px;
+        }
       }
     }
-  }
 
-  .header__nav-icon {
-    img {
-      max-width: 30px;
-      height: 30px;
+    &__nav-icon {
+      img {
+        max-width: 30px;
+        height: 30px;
+      }
     }
   }
 
