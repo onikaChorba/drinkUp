@@ -1,1 +1,1 @@
-### Architecture build practice project
+### Simple animations practice project

@@ -80,7 +80,7 @@ eval("document.addEventListener('DOMContentLoaded', function () {\n  navSlide();
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("2dbcd94403540dcbeec8")
+/******/ 		__webpack_require__.h = () => ("0ef178442892df1bd00b")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

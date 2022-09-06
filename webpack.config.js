@@ -56,6 +56,10 @@ module.exports = {
                 use: ['babel-loader'],
             },
             {
+                test: /\.(html)$/,
+                use: ['html-loader']
+            },
+            {
                 test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
                 type: 'asset/resource',
             },
