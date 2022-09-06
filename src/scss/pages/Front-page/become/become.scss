@@ -30,11 +30,21 @@
 
   &__btn {
     border: 1px solid #794BFF;
+    cursor: pointer;
 
     a {
       color: #794BFF;
       font-weight: 400;
       line-height: 26px;
+    }
+  }
+
+  &__btn:hover {
+    background: #794BFF;
+    transition-duration: 3s;
+
+    a {
+      color: #fff;
     }
   }
 }
