@@ -56,7 +56,17 @@
   }
 
   &__button {
+    cursor: pointer;
     margin-top: 33px;
+  }
+
+  &__button:hover {
+    background-color: #fff;
+    transition-duration: 2s;
+
+    a {
+      color: #5B3DDF;
+    }
   }
 }
 
@@ -70,6 +80,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 
   &__img {
     max-width: 50%;
@@ -88,6 +99,7 @@
 }
 
 .main-icon:hover {
+  transition-duration: 2s;
   background: #D85259;
 }
 
