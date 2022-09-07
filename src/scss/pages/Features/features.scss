@@ -1,11 +1,11 @@
 .box-m {
-  max-width: 42%;
+  max-width: 465px;
   width: 100%;
   min-height: 392px;
 }
 
 .box-s {
-  max-width: 38%;
+  max-width: 420px;
   width: 100%;
   min-height: 392px;
 }
@@ -15,6 +15,15 @@
   border-radius: 43px;
   background: #5B3DDF;
   height: fit-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  transform: translateY(110%);
+  transition: all 0.6s ease;
 
   &__heading {
     font-weight: 400;
@@ -71,26 +80,31 @@
   }
 }
 
-// .info-box {
-//   position: relative;
-//   display: inline-block;
-// }
-
-
 .textboxs {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+
+.textboxs:hover {
+  .text-box {
+    transform: translateY(0%);
+  }
+}
+
+.textboxs-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  flex: 0 1 50%;
   justify-content: center;
 }
+
 
 .textbox-container {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-left: 37px;
   margin-right: 37px;
-  flex: 0 0 50%;
 }
 
 .feature-textboxs {
